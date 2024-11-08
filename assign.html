@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="assignment" class="bg-purple-900 py-12 px-4 md:px-8">
+  <h2 class="text-center text-white text-3xl font-semibold mb-8">Our Services</h2>
+  <div class="services-container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    
+    <!-- Service Card 1 -->
+    <div class="service-card" onmouseover="rotateIcon(this)" onmouseout="resetIcon(this)">
+      <div class="icon-container">
+        <img src="img1.jpg" alt="Emergency Plumbing Icon" class="icon">
+      </div>
+      <h3 class="service-title">Emergency Plumbing Services</h3>
+      <p class="service-description">Our plumbers are ready to go 24/7 for emergencies - including nights, weekends, and holidays.</p>
+      <a href="#" class="service-button">Explore This Service &gt;</a>
+    </div>
+    
+    <!-- Service Card 2 -->
+    <div class="service-card" onmouseover="rotateIcon(this)" onmouseout="resetIcon(this)">
+      <div class="icon-container">
+        <img src="img2.jpg" alt="Plumbing and Drains Icon" class="icon">
+      </div>
+      <h3 class="service-title">Plumbing and Drains</h3>
+      <p class="service-description">As the largest plumbing and drain service company, we make thousands of repairs every day.</p>
+      <a href="#" class="service-button">Explore This Service &gt;</a>
+    </div>
+    
+    <!-- Service Card 3 -->
+    <div class="service-card" onmouseover="rotateIcon(this)" onmouseout="resetIcon(this)">
+      <div class="icon-container">
+        <img src="img3.png" alt="Water Damage Icon" class="icon">
+      </div>
+      <h3 class="service-title">Water Damage</h3>
+      <p class="service-description">Our teams are equipped with state-of-the-art water extraction and cleanup equipment.</p>
+      <a href="#" class="service-button">Explore This Service &gt;</a>
+    </div>
+    
+    <!-- Service Card 4 -->
+    <div class="service-card" onmouseover="rotateIcon(this)" onmouseout="resetIcon(this)">
+      <div class="icon-container">
+        <img src="img4.avif" alt="Water Heater Icon" class="icon">
+      </div>
+      <h3 class="service-title">Water Heaters</h3>
+      <p class="service-description">Trust Roto-Rooter for repair and replacement of gas, electric and tankless water heaters.</p>
+      <a href="#" class="service-button">Explore This Service &gt;</a>
+    </div>
+  
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+/* General styling for the section */
+#assignment {
+    background-color: #2c2b9f;
+    padding: 3rem 1.5rem;
+}
+
+/* Container for the service cards */
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Service Card Styling */
+.service-card {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon styling */
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    width: 4rem;
+    height: 4rem;
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Title and description styling */
+.service-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333333;
+    margin: 1rem 0 0.5rem;
+}
+
+.service-description {
+    font-size: 0.875rem;
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+/* Button styling */
+.service-button {
+    color: #2c6bed;
+    font-weight: 600;
+    font-size: 0.875rem;
+    transition: color 0.3s;
+    margin-top: auto;
+    text-decoration: none;
+}
+
+.service-button:hover {
+    color: #1d4ecf;
+    text-decoration: underline;
+}
